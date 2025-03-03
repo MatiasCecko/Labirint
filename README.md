@@ -1,6 +1,6 @@
 <h1>Projektna naloga 3 - HTML5 (Labirint)</h1>
 
-Za svojo projektno nalogo sem se odločil oblikovati labirint s temo mesta, ki potrebuje elektriko.
+Za svojo projektno nalogo sem se odločil oblikovati labirint, ki predstavlja mesto brez elektrike. Ko se pot labirinta uspešno zaključi, se mesto osvetli in pridobi elektriko.
 
 <h1>SLIKE</h1>
 
