@@ -27,7 +27,7 @@ function interpolate(x1, y1, x2, y2, step) {
 // Function to animate drawing the path
 function animateDrawing() {
   console.log("Start button clicked");
-  startButton.disabled = true;
+  toggleSwitch.disabled = true;
   let i = 0;
   let maxIndex = points.length / 2;
   shown = true;
@@ -65,9 +65,12 @@ function animateDrawing() {
         }
       }
       drawSmoothLine();
+    } else {
+        // Enable switch after animation completes
+        toggleSwitch.disabled = false;
     }
-  }
-  drawLine();
+}
+drawLine();
 }
 
 
@@ -90,14 +93,4 @@ function reset() {
 
   eraseLine(); // Start the erasing process
 }
-
-
-
-
-
-
-
-
-
-
 

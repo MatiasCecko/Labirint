@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="x-icon" href="img/strela.png">
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <title>ElectriCity</title>
@@ -11,10 +12,10 @@
 
 <body>
     <div class="image"></div>
-    
+
     <div class="container">
         <h1 class="title">[ElectriCity]</h1>
-      
+
 
         <div id="mazeholder">
             <canvas width="484" height="484" id="canvas"></canvas>
@@ -24,13 +25,23 @@
         <div id="gumbi">
             <button id="gumb" onclick="animateDrawing()">Start</button>
             <button id="gumb2" onclick="reset()">Reset</button>
-            <button id="gumb3" onclick="credits()">Info</button>
+        
         </div>
+        <div id="gumbi">
+            <label class="switch">
+                <input type="checkbox" id="toggleSwitch">
+                <span class="slider"></span>
+                <audio id="clickSound" src="audio/click-sound.mp3"></audio>
+            </label>
+        </div>
+        
     </div>
+    <!-- Audio element -->
+    <audio id="clickSound" src="audio/click-sound.mp3"></audio>
 
 </body>
 <script src="js/script.js"></script>
 <script src="js/info.js"></script>
 <script src="js/reset.js"></script>
-
+<script src="js/sound.js"></script>
 </html>

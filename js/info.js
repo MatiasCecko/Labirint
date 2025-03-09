@@ -1,3 +1,13 @@
+document.addEventListener("DOMContentLoaded", function () {
+    const title = document.querySelector(".title");
+
+    title.addEventListener("click", function (event) {
+        if (event.target.textContent.includes("E") && event.offsetX < 30) { 
+            credits();
+        }
+    });
+});
+
 function credits() {
     Swal.fire({
         position: "top-right",
