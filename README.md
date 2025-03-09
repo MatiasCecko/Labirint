@@ -4,9 +4,11 @@ Za svojo projektno nalogo sem se odločil oblikovati labirint, ki predstavlja me
 
 <h1>SLIKE</h1>
 
-![image](https://github.com/user-attachments/assets/1108c9d4-2bc8-441e-b6eb-90a0925082ad)
+![image](https://github.com/user-attachments/assets/e3823800-9e31-4ac3-a757-5e3f3334186d)
 
-![image](https://github.com/user-attachments/assets/b04a95d5-c3eb-4c97-b8c5-600a598e6b35)
+
+![image](https://github.com/user-attachments/assets/5be56620-ff18-4c0d-89c7-b28de7e91459)
+
 
 ![image](https://github.com/user-attachments/assets/3d0d3817-fb3c-4d81-93c1-25554ec65b56)
 
