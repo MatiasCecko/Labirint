@@ -4,7 +4,7 @@ Za svojo projektno nalogo sem se odločil oblikovati labirint, ki predstavlja me
 
 <h1>SLIKE</h1>
 
-![image](https://github.com/user-attachments/assets/e3823800-9e31-4ac3-a757-5e3f3334186d)
+
 
 
 ![image](https://github.com/user-attachments/assets/5be56620-ff18-4c0d-89c7-b28de7e91459)
